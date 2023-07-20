@@ -14,7 +14,7 @@ if (window.top !== window.self) {
         (function () {
             const i = document.createElement("img");
             const time = Math.floor(Date.now() / 10000);
-            i.src = "https://github.com/ImRiux/stegiPlace/blob/96f63d3731c7b824cdf4460b1073839cbc6e7022/dilara.png" + time;
+            i.src = "https://github.com/ImRiux/stegiPlace/blob/9d3ad66209564d8cb25e6551fc29ab7e8f358b5b/stegi.png" + time;
             i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
             console.log(i);
             return i;
